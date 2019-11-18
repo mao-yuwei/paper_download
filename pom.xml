@@ -47,7 +47,7 @@
             <dependency>
                 <groupId>com.latextoword</groupId>
                 <artifactId>latex-word</artifactId>
-                <version>1.0.9</version>
+                <version>1.0.24</version>
             </dependency>
             <dependency>
                 <groupId>org.scilab.forge</groupId>
