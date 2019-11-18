@@ -21,7 +21,6 @@ import java.util.zip.ZipOutputStream;
 
 /**
  * @Author: maoyuwei
- * @Date: 2019/8/22 15:03
  * @Desc: 试卷下载设置
  **/
 public class PaperDownloadSeting {
@@ -57,7 +56,7 @@ public class PaperDownloadSeting {
             getwordFileOutPutStream(paperMap,docType,out);
             out.flush();
         } catch (Exception e) {
-            logger.error("套卷下载异常",e);
+            logger.error("试卷下载异常",e);
         } finally {
             try {
                 out.close();

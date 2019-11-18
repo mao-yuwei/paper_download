@@ -8,7 +8,6 @@ import java.util.logging.Logger;
 
 /**
  * @Author: maoyuwei
- * @Date: 2019/8/15 15:52
  * @Desc:试卷试题数据处理
  **/
 public class QuestionDataFormat {

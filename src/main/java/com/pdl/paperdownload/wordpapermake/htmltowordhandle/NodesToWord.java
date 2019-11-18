@@ -12,7 +12,6 @@ import java.util.regex.Pattern;
 
 /**
  * @Author: maoyuwei
- * @Date: 2019/8/19 10:17
  * @Desc: node 转换成word 格式
  **/
 public class NodesToWord {
@@ -23,7 +22,6 @@ public class NodesToWord {
     private static Integer index=-1;
     /**
      *@Author: maoyuwei
-     *@Date: 2019/9/7 15:29
      *@Desc: 标签节点转化为word格式
      */
     public  static  String nodesToWord(List<Node> nodes,String wordStr){

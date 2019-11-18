@@ -22,7 +22,6 @@ import java.util.regex.Pattern;
 
 /**
  *@Author: maoyuwei
- *@Date: 2019/9/7 15:29
  *@Desc: html 内容转 word
  */
 public class SpecialContentToWordUtil {
@@ -145,14 +144,12 @@ public class SpecialContentToWordUtil {
         int height = 0;
         //从oss获取图片流转化为base64
         try {
-            //in=OSSManageUtil.getInutStreambyPath(path);
             URL url1 = new URL(path);
             HttpURLConnection httpUrl = (HttpURLConnection) url1.openConnection();
             httpUrl.connect();
             in = httpUrl.getInputStream();
             byte[] bytes = readInputStream(in);
             in.close();
-            // OSSManageUtil.ossClientShutDown();
             ByteArrayInputStream bIn = new ByteArrayInputStream(bytes);    //将bytes作为输入流；
             BufferedImage image = ImageIO.read(bIn);
             width = image == null ? -1 : image.getWidth();
@@ -234,7 +231,6 @@ public class SpecialContentToWordUtil {
                 htmlStr = htmlStr.replace(oldStr, WordStyle.wrtend + WordStyle.omathbegin + latexStr + WordStyle.omathend + WordStyle.ommlwrtbegin + WordStyle.wrtend + WordStyle.wrtbegin);
                 continue;
             }
-            //---------------------------------新工具（create by myw）---------------------------------
             try {
                 String ommlStr = Latex_Word.latexToWordAlreadyClean(latexStr);
                 if (!ommlStr.equals("ERROR")) {
@@ -328,18 +324,6 @@ public class SpecialContentToWordUtil {
         return htmlStr;
     }
 
-    public static String htmlCleanBefore(String htmlStr) {
-        //解析mathJye公式：去html代码留注释中的image标签路径
-        String mathJye = "\\[-->[\\s\\S]*?\\]-->";
-        String mathJyeImg = "<!-- <[\\s]*?img";
-        htmlStr = htmlStr.replaceAll(mathJye, "");
-        htmlStr = htmlStr.replaceAll(mathJyeImg, "<img");
-        //题文前换行标签不换行,<mm 标签最后会被换成空串
-        String editorFillBankMark = "<em class=\"editorFillBank\">[\\s\\S]*?</em>";
-        htmlStr = htmlStr.replaceAll(editorFillBankMark, "_________________");
-        htmlStr = htmlStr.replace("\\(\\underline{\\qquad\\quad}\\)", "_________");
-        return htmlStr;
-    }
 
     public static String htmlCleanAfter(String wordstr) {
 

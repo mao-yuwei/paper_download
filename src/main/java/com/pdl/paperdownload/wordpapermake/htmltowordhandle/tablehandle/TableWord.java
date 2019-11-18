@@ -4,23 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TableWord {
-	
-//	public static String tableheader = "<w:tbl><w:tblPr><w:tblW w:w=\"0\" w:type=\"auto\"/><w:tblBorders><w:top w:val=\"single\" w:sz=\"4\" w:space=\"0\" w:color=\"auto\"/><w:left w:val=\"single\" w:sz=\"4\" w:space=\"0\" w:color=\"auto\"/><w:bottom w:val=\"single\" w:sz=\"4\" w:space=\"0\" w:color=\"auto\"/><w:right w:val=\"single\" w:sz=\"4\" w:space=\"0\" w:color=\"auto\"/><w:insideH w:val=\"single\" w:sz=\"4\" w:space=\"0\" w:color=\"auto\"/><w:insideV w:val=\"single\" w:sz=\"4\" w:space=\"0\" w:color=\"auto\"/></w:tblBorders><w:tblLook w:val=\"04A0\" w:firstRow=\"1\" w:lastRow=\"0\" w:firstColumn=\"1\" w:lastColumn=\"0\" w:noHBand=\"0\" w:noVBand=\"1\"/></w:tblPr>";
-//	public static String tableend = "</w:tbl>";
-//	public static String tblGridbegin = "<w:tblGrid>";
-//	public static String colwidthbegin = "<w:gridCol w:w=\"";
-//	public static String colwidthend = "\"/>";
-//	public static String tblGridend = "</w:tblGrid>";
-//	public static String trbegin = "<w:tr w:rsidR=\"00247EED\" w:rsidTr=\"00AC2712\">";
-//	public static String trend = "</w:tr>";
-//	public static String tcWidthbegin = "<w:tc><w:tcPr><w:tcW w:w=\"";
-//	public static String tcWidthend = "\" w:type=\"dxa\"/>";
-//	public static String tccolspanbegin = "<w:gridSpan w:val=\"";
-//	public static String tccolspanend = "\"/>";
-//	public static String tcrowspanbegin = "<w:vMerge w:val=\"restart\"/>";
-//	public static String tcrowspanend = "<w:vMerge/><w:shd w:val=\"clear\" w:color=\"auto\" w:fill=\"auto\"/></w:tcPr><w:p w:rsidR=\"00752682\" w:rsidRDefault=\"00752682\"/></w:tc>";
-//	public static String tcMiddle = "<w:shd w:val=\"clear\" w:color=\"auto\" w:fill=\"auto\"/></w:tcPr><w:p w:rsidR=\"00752682\" w:rsidRDefault=\"00752682\"><w:pPr><w:jc w:val=\"center\"/></w:pPr><w:r><w:rPr><w:rFonts w:hint=\"eastAsia\"/></w:rPr><w:t>";
-//	public static String tcend = "</w:t></w:r></w:p></w:tc>";
+	//word标签样式（转换<>后）
     public static String tableheader = "&LT;w:tbl&GT;&LT;w:tblPr&GT;&LT;w:tblW w:w=\"0\" w:type=\"auto\"/&GT;&LT;w:tblInd w:w=\"540\" w:type=\"dxa\"/&GT;&LT;w:tblBorders&GT;&LT;w:top w:val=\"single\" w:sz=\"4\" w:space=\"0\" w:color=\"auto\"/&GT;&LT;w:left w:val=\"single\" w:sz=\"4\" w:space=\"0\" w:color=\"auto\"/&GT;&LT;w:bottom w:val=\"single\" w:sz=\"4\" w:space=\"0\" w:color=\"auto\"/&GT;&LT;w:right w:val=\"single\" w:sz=\"4\" w:space=\"0\" w:color=\"auto\"/&GT;&LT;w:insideH w:val=\"single\" w:sz=\"4\" w:space=\"0\" w:color=\"auto\"/&GT;&LT;w:insideV w:val=\"single\" w:sz=\"4\" w:space=\"0\" w:color=\"auto\"/&GT;&LT;/w:tblBorders&GT;&LT;w:tblLook w:val=\"04A0\" w:firstRow=\"1\" w:lastRow=\"0\" w:firstColumn=\"1\" w:lastColumn=\"0\" w:noHBand=\"0\" w:noVBand=\"1\"/&GT;&LT;/w:tblPr&GT;";
 	public static String tableend = "&LT;/w:tbl&GT;";
 	public static String tblGridbegin = "&LT;w:tblGrid&GT;";
