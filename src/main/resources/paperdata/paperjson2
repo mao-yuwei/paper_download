@@ -10,7 +10,7 @@
       "questionsList": [
         {
           "questionAnswer": "C",
-          "questionContent": "<div>函数<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032810492860664976.png\">\\(f(x)= \\begin{cases} x^{2}e^{x}，x≤1 \\\\ lnx- \\sqrt {-x^{2}+2x}，x＞1\\end{cases}\\)</latex-code>零点的个数是（　　）</div>",
+          "questionContent": "<div>函数\\(f(x)= \\begin{cases} x^{2}e^{x}，x≤1 \\\\ lnx- \\sqrt {-x^{2}+2x}，x＞1\\end{cases}\\)零点的个数是（　　）</div>",
           "questionLabelList": [
             {
               "labelName": "利用四种命题的关系判断命题的真假",
@@ -36,7 +36,7 @@
             }
           ],
           "questionSelection": "<table width=\"100%\"> <tbody> <tr> <td class=\"selectoption\" width=\"23%\">A.&nbsp;\\(2π\\)</td> <td class=\"selectoption\" width=\"23%\">B.&nbsp;\\(8π\\)</td> <td class=\"selectoption\" width=\"23%\">C.&nbsp;\\(12π\\)</td> <td class=\"selectoption\" width=\"23%\">D.&nbsp;\\(16π\\)</td> </tr> </tbody> </table>",
-          "questionAnswerInfo": "<div> 解：如图， <br /><img alt=\"\" src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20180524/2018052414030848127844.png\" style=\"vertical-align:middle\" w=\"176px\" h=\"189px\" /> <br />设正方体的棱长为\\(a\\)，则\\(\\triangle D_{1}AC\\)是边长为\\( \\sqrt {2}a\\)的等边三角形， <br />设其外接圆的半径为\\(r\\)，则\\( \\dfrac { \\sqrt {2}a}{\\sin 60 ^{\\circ} }=2r\\)，即\\(r= \\dfrac { \\sqrt {6}}{3}a\\)． <br />由\\( \\dfrac { \\sqrt {6}}{3}a= \\dfrac {2 \\sqrt {6}}{3}\\)，得\\(a=2\\)．<br />\\(∴\\)正方体外接球的\\(R= \\dfrac {1}{2} \\sqrt {2^{2}+2^{2}+2^{2}}= \\sqrt {3}\\)． <br />\\(∴\\)正方体外接球的表面积为\\(4π&times;( \\sqrt {3})^{2}=12π\\)． <br />故选：\\(C\\)．<br />由题意画出图形，设正方体的棱长为\\(a\\)，则\\(\\triangle D_{1}AC\\)是边长为\\( \\sqrt {2}a\\)的等边三角形，由正弦定理列式求得\\(\\triangle D_{1}AC\\)外接圆半径，进一步求得\\(a\\)值，再由正方体体对角线长的平方等于过一个顶点的三条棱的平方和求得正方体外接球的半径，则答案可求．<br />本题考查球的表面积与体积的求法，考查数形结合的解题思想方法，是中档题．</div>",
+          "questionAnswerInfo": "<div> 解：如图， <br /><img alt=\"\" src=\"http://chuantu.xyz/t6/706/1576636782x3703728804.png\" style=\"vertical-align:middle\" w=\"176px\" h=\"189px\" /> <br />设正方体的棱长为\\(a\\)，则\\(\\triangle D_{1}AC\\)是边长为\\( \\sqrt {2}a\\)的等边三角形， <br />设其外接圆的半径为\\(r\\)，则\\( \\dfrac { \\sqrt {2}a}{\\sin 60 ^{\\circ} }=2r\\)，即\\(r= \\dfrac { \\sqrt {6}}{3}a\\)． <br />由\\( \\dfrac { \\sqrt {6}}{3}a= \\dfrac {2 \\sqrt {6}}{3}\\)，得\\(a=2\\)．<br />\\(∴\\)正方体外接球的\\(R= \\dfrac {1}{2} \\sqrt {2^{2}+2^{2}+2^{2}}= \\sqrt {3}\\)． <br />\\(∴\\)正方体外接球的表面积为\\(4π&times;( \\sqrt {3})^{2}=12π\\)． <br />故选：\\(C\\)．<br />由题意画出图形，设正方体的棱长为\\(a\\)，则\\(\\triangle D_{1}AC\\)是边长为\\( \\sqrt {2}a\\)的等边三角形，由正弦定理列式求得\\(\\triangle D_{1}AC\\)外接圆半径，进一步求得\\(a\\)值，再由正方体体对角线长的平方等于过一个顶点的三条棱的平方和求得正方体外接球的半径，则答案可求．<br />本题考查球的表面积与体积的求法，考查数形结合的解题思想方法，是中档题．</div>",
           "questionSource": "2018·陕西省期末",
           "questionDifficulty": 2
         },
@@ -84,7 +84,7 @@
       "questionsList": [
         {
           "questionAnswer": "<div>-1</div>",
-          "questionContent": "<div>已知函数<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032810152025311503.png\">\\(f(x)= \\begin{cases}  - \\sqrt {x}，x＞0 \\\\ sin \\frac {x}{2}，x≤0\\end{cases}\\)</latex-code>，则f[f（π<latex-code>\\(^{2}\\)</latex-code>）]=<!--BA-->______<!--EA-->．</div>",
+          "questionContent": "<div>已知函数\\(f(x)= \\begin{cases}  - \\sqrt {x}，x＞0 \\\\ sin \\frac {x}{2}，x≤0\\end{cases}\\)，则f[f（π\\(^{2}\\)）]=<!--BA-->______<!--EA-->．</div>",
           "questionLabelList": [
             {
               "labelName": "利用分段函数解析式求值或解不等式",
@@ -92,13 +92,13 @@
             }
           ],
           "questionSelection": "",
-          "questionAnswerInfo": "<div>解：∵函数<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032816514616681175.png\">\\(f(x)= \\begin{cases}  - \\sqrt {x}，x＞0 \\\\ sin \\frac {x}{2}，x≤0\\end{cases}\\)</latex-code>，<br>∴f（π<latex-code>\\(^{2}\\)</latex-code>）=-<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032816514636985885.png\">\\( \\sqrt {π^{2}}\\)</latex-code>=-π，<br>f[f（π<latex-code>\\(^{2}\\)</latex-code>）]=f（-π）=sin（-<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032816514660318162.png\">\\( \\frac {π}{2}\\)</latex-code>）=-sin<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032816514660318162.png\">\\( \\frac {π}{2}\\)</latex-code>=-1．<br>故答案为：-1．<br>推导出f（π<latex-code>\\(^{2}\\)</latex-code>）=-<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032816514636985885.png\">\\( \\sqrt {π^{2}}\\)</latex-code>=-π，从而f[f（π<latex-code>\\(^{2}\\)</latex-code>）]=f（-π）=sin（-<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032816514660318162.png\">\\( \\frac {π}{2}\\)</latex-code>），由此能求出结果．<br>本题考查函数值的求法，考查函数性质等基础知识，考查运算求解能力，是基础题．</div>",
+          "questionAnswerInfo": "<div>解：∵函数\\(f(x)= \\begin{cases}  - \\sqrt {x}，x＞0 \\\\ sin \\frac {x}{2}，x≤0\\end{cases}\\)，<br>∴f（π\\(^{2}\\)）=-\\( \\sqrt {π^{2}}\\)=-π，<br>f[f（π\\(^{2}\\)）]=f（-π）=sin（-\\( \\frac {π}{2}\\)）=-sin\\( \\frac {π}{2}\\)=-1．<br>故答案为：-1．<br>推导出f（π\\(^{2}\\)）=-\\( \\sqrt {π^{2}}\\)=-π，从而f[f（π\\(^{2}\\)）]=f（-π）=sin（-\\( \\frac {π}{2}\\)），由此能求出结果．<br>本题考查函数值的求法，考查函数性质等基础知识，考查运算求解能力，是基础题．</div>",
           "questionSource": "2019·江西省期末",
           "questionDifficulty": 2
         },
         {
           "questionAnswer": "<div>（8，11）</div>",
-          "questionContent": "<div>已知函数f（x）=<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032810381508839283.png\">\\( \\begin{cases}  |log_{2}x- \\frac {1}{2}|，0＜x＜4 \\\\ -x+ \\frac {11}{2}，x≥4\\end{cases}\\)</latex-code>，若存在实数a，b，c，满足f（a）=f（b）=f（c），其中0＜a＜b＜c，则abc的取值范围是<!--BA-->______<!--EA-->．</div>",
+          "questionContent": "<div>已知函数f（x）=\\( \\begin{cases}  |log_{2}x- \\frac {1}{2}|，0＜x＜4 \\\\ -x+ \\frac {11}{2}，x≥4\\end{cases}\\)，若存在实数a，b，c，满足f（a）=f（b）=f（c），其中0＜a＜b＜c，则abc的取值范围是<!--BA-->______<!--EA-->．</div>",
           "questionLabelList": [
             {
               "labelName": "利用分段函数解析式求值或解不等式",
@@ -110,13 +110,13 @@
             }
           ],
           "questionSelection": "",
-          "questionAnswerInfo": "<div><img alt=\"\" src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032817405229116263.png\" style=\"vertical-align:middle;FLOAT:right\" w=\"338px\" h=\"226px\">解：如图，画出f（x）的图象，<br>由图象知，<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032817405236883689.png\">\\( \\frac {1}{2}\\)</latex-code>-log<latex-code>\\(_{2}\\)</latex-code>a=log<latex-code>\\(_{2}\\)</latex-code>b-<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032817405236883689.png\">\\( \\frac {1}{2}\\)</latex-code>，即ab=2，4＜c＜<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032817405283352969.png\">\\( \\frac {11}{2}\\)</latex-code>，<br>∴abc的取值范围是（8，11）．<br>图解法：画出函数f（x）的图象，根据图象分析abc的取值范围．<br>此题是个中档题．考查利用函数图象分析解决问题的能力，以及对数函数图象的特点，体现数形结合的思想．</div>",
+          "questionAnswerInfo": "<div><img alt=\"\" src=\"http://chuantu.xyz/t6/706/1576637002x2073530527.png\" style=\"vertical-align:middle;FLOAT:right\" w=\"338px\" h=\"226px\">解：如图，画出f（x）的图象，<br>由图象知，\\( \\frac {1}{2}\\)-log\\(_{2}\\)a=log\\(_{2}\\)b-\\( \\frac {1}{2}\\)，即ab=2，4＜c＜\\( \\frac {11}{2}\\)，<br>∴abc的取值范围是（8，11）．<br>图解法：画出函数f（x）的图象，根据图象分析abc的取值范围．<br>此题是个中档题．考查利用函数图象分析解决问题的能力，以及对数函数图象的特点，体现数形结合的思想．</div>",
           "questionSource": "2019·山西省期末",
           "questionDifficulty": 3
         },
         {
-          "questionAnswer": "<div>（2<latex-code src=\"http://bj.download.cycore.cn/question/2019/3/2/8/11/69a93e49-f9b5-48e2-8743-d3d28f1db170.png\">\\( \\sqrt {2}\\)</latex-code>，3）</div>",
-          "questionContent": "<div>已知函数f（x）=<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032809333117423880.png\">\\( \\frac {e^{x}}{x+1}\\)</latex-code>，g（x）=x<latex-code>\\(^{2}\\)</latex-code>-mx+2，若方程g（f（x））=0有四个不同的实数解，则实数m的取值范围是<!--BA-->______<!--EA-->．</div>",
+          "questionAnswer": "<div>（2\\( \\sqrt {2}\\)，3）</div>",
+          "questionContent": "<div>已知函数f（x）=\\( \\frac {e^{x}}{x+1}\\)，g（x）=x\\(^{2}\\)-mx+2，若方程g（f（x））=0有四个不同的实数解，则实数m的取值范围是<!--BA-->______<!--EA-->．</div>",
           "questionLabelList": [
             {
               "labelName": "通过数形结合求零点或方程根个数",
@@ -124,7 +124,7 @@
             }
           ],
           "questionSelection": "",
-          "questionAnswerInfo": "<div><img alt=\"\" src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032815263104010503.png\" style=\"vertical-align:middle;FLOAT:right\" w=\"224px\" h=\"226px\">解：由f（x）=<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032815263160864775.png\">\\( \\frac {e^{x}}{x+1}\\)</latex-code>，<br>得f′（x）=<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032815263217176066.png\">\\( \\frac {xe^{x}}{(x+1)^{2}}\\)</latex-code>，<br>当x＜-1或-1＜x＜0时，f′（x）＜0，<br>当x＞0时，f′（x）＞0，<br>则f（x）在（-∞，-1），（-1，0）上为减函数，<br>在（0，+∞）为增函数，<br>设t=f（x），其图象如图所示：<br>设t<latex-code>\\(_{1}\\)</latex-code>，t<latex-code>\\(_{2}\\)</latex-code>是方程t<latex-code>\\(^{2}\\)</latex-code>-mt+2=0，<br>方程g（f（x））=0有四个不同的实数解等价于t=f（x）图象与直线t=t<latex-code>\\(_{1}\\)</latex-code>，t=t<latex-code>\\(_{2}\\)</latex-code>的交点个数之和，<br>由图可知：方程t<latex-code>\\(^{2}\\)</latex-code>-mt+2=0有两大于1的不等实根，<br>即<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032815263248575769.png\">\\( \\begin{cases}  m^{2}-8＞0 \\\\  \\frac {m}{2}＞1 \\\\ g(1)＞0\\end{cases}\\)</latex-code>，解得：2<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032815263278590197.png\">\\( \\sqrt {2}\\)</latex-code>＜m＜3，<br>故答案为：（2<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032815263278590197.png\">\\( \\sqrt {2}\\)</latex-code>，3）<br>由方程的解与函数图象的交点的关系可得：方程g（f（x））=0有四个不同的实数解等价于t=f（x）图象与直线t=t<latex-code>\\(_{1}\\)</latex-code>，t=t<latex-code>\\(_{2}\\)</latex-code>的交点个数之和，<br>利用导数研究函数的单调性，最值及图象可得：当x＜-1或-1＜x＜0时，f′（x）＜0，当x＞0时，f′（x）＞0，则f（x）在（-∞，-1），（-1，0）上为减函数，在（0，+∞）为增函数，<br>再观察图象即可得解，<br>本题考查了方程的解与函数图象的交点，利用导数研究函数的单调性，最值及图象，属中档题．</div>",
+          "questionAnswerInfo": "<div><img alt=\"\" src=\"http://chuantu.xyz/t6/706/1576636915x2073530527.png\" style=\"vertical-align:middle;FLOAT:right\" w=\"224px\" h=\"226px\">解：由f（x）=\\( \\frac {e^{x}}{x+1}\\)，<br>得f′（x）=\\( \\frac {xe^{x}}{(x+1)^{2}}\\)，<br>当x＜-1或-1＜x＜0时，f′（x）＜0，<br>当x＞0时，f′（x）＞0，<br>则f（x）在（-∞，-1），（-1，0）上为减函数，<br>在（0，+∞）为增函数，<br>设t=f（x），其图象如图所示：<br>设t\\(_{1}\\)，t\\(_{2}\\)是方程t\\(^{2}\\)-mt+2=0，<br>方程g（f（x））=0有四个不同的实数解等价于t=f（x）图象与直线t=t\\(_{1}\\)，t=t\\(_{2}\\)的交点个数之和，<br>由图可知：方程t\\(^{2}\\)-mt+2=0有两大于1的不等实根，<br>即\\( \\begin{cases}  m^{2}-8＞0 \\\\  \\frac {m}{2}＞1 \\\\ g(1)＞0\\end{cases}\\)，解得：2\\( \\sqrt {2}\\)＜m＜3，<br>故答案为：（2\\( \\sqrt {2}\\)，3）<br>由方程的解与函数图象的交点的关系可得：方程g（f（x））=0有四个不同的实数解等价于t=f（x）图象与直线t=t\\(_{1}\\)，t=t\\(_{2}\\)的交点个数之和，<br>利用导数研究函数的单调性，最值及图象可得：当x＜-1或-1＜x＜0时，f′（x）＜0，当x＞0时，f′（x）＞0，则f（x）在（-∞，-1），（-1，0）上为减函数，在（0，+∞）为增函数，<br>再观察图象即可得解，<br>本题考查了方程的解与函数图象的交点，利用导数研究函数的单调性，最值及图象，属中档题．</div>",
           "questionSource": "2019·江苏省期末",
           "questionDifficulty": 4
         }
@@ -140,8 +140,8 @@
       "thisTypeSize": 2,
       "questionsList": [
         {
-          "questionAnswer": "<div>解：（1）由题意得，<latex-code src=\"http://bj.download.cycore.cn/question/2019/3/11/10/45/7add4a65-1715-43dd-b92d-8bceea32939c.png\">\\( \\frac {kx-1}{x-1}\\)</latex-code>＞0，<br>①当0＜k＜1时，x＞<latex-code src=\"http://bj.download.cycore.cn/question/2019/3/11/10/45/a670726b-1335-430d-876a-d4f25e644ee4.png\">\\( \\frac {1}{k}\\)</latex-code>或x＜1；<br>故函数f（x）的定义域为（-∞，1）∪（<latex-code src=\"http://bj.download.cycore.cn/question/2019/3/11/10/45/ffcbd5a2-64c4-4f4a-a98d-d055e7546b81.png\">\\( \\frac {1}{k}\\)</latex-code>，+∞）；<br>②当k=1时，x＞1或x＜1；<br>故函数f（x）的定义域为（-∞，1）∪（1，+∞）；<br>③当k＞1时，x＜<latex-code src=\"http://bj.download.cycore.cn/question/2019/3/11/10/45/d55187d5-9ce9-410a-bfe4-f8c29f47d2bb.png\">\\( \\frac {1}{k}\\)</latex-code>或x＞1；<br>故函数f（x）的定义域为（-∞，<latex-code src=\"http://bj.download.cycore.cn/question/2019/3/11/10/45/22422c52-a8fd-41cd-af0b-4cad78faea57.png\">\\( \\frac {1}{k}\\)</latex-code>）∪（1，+∞）；<br>（2）若函数f（x）=ln<latex-code src=\"http://bj.download.cycore.cn/question/2019/3/11/10/45/20022f48-c3ea-4f48-9fc2-4c6a8a9f0d9c.png\">\\( \\frac {kx-1}{x-1}\\)</latex-code>在区间[10，+∞）上是增函数，<br>则y=<latex-code src=\"http://bj.download.cycore.cn/question/2019/3/11/10/45/657db509-a3fd-43d4-95fc-fa4d1c4bc33a.png\">\\( \\frac {kx-1}{x-1}\\)</latex-code>在区间[10，+∞）上是增函数，且<latex-code src=\"http://bj.download.cycore.cn/question/2019/3/11/10/45/1515ad4c-acab-4c28-b6a9-d4e7baa9992b.png\">\\( \\frac {kx-1}{x-1}\\)</latex-code>＞0在[10，+∞）上恒成立；<br>由（1）知，<latex-code src=\"http://bj.download.cycore.cn/question/2019/3/11/10/45/18051da0-4ef4-4b75-9c81-5302564d8843.png\">\\( \\begin{cases}  0＜k＜1 \\\\  \\frac {1}{k}＜10\\end{cases}\\)</latex-code>，<br>解得，<latex-code src=\"http://bj.download.cycore.cn/question/2019/3/11/10/45/975cc556-3e14-45d0-b095-d071b295fc79.png\">\\( \\frac {1}{10}\\)</latex-code>＜k＜1．</div>",
-          "questionContent": "<div>已知函数f（x）=ln<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032810401853694498.png\">\\( \\frac {kx-1}{x-1}\\)</latex-code>（k＞0）．<br>（1）求函数f（x）的定义域；<br>（2）若函数f（x）在区间[10，+∞）上是增函数，求 实数k的取值范围．</div>",
+          "questionAnswer": "<div>解：（1）由题意得，\\( \\frac {kx-1}{x-1}\\)＞0，<br>①当0＜k＜1时，x＞\\( \\frac {1}{k}\\)或x＜1；<br>故函数f（x）的定义域为（-∞，1）∪（\\( \\frac {1}{k}\\)，+∞）；<br>②当k=1时，x＞1或x＜1；<br>故函数f（x）的定义域为（-∞，1）∪（1，+∞）；<br>③当k＞1时，x＜\\( \\frac {1}{k}\\)或x＞1；<br>故函数f（x）的定义域为（-∞，\\( \\frac {1}{k}\\)）∪（1，+∞）；<br>（2）若函数f（x）=ln\\( \\frac {kx-1}{x-1}\\)在区间[10，+∞）上是增函数，<br>则y=\\( \\frac {kx-1}{x-1}\\)在区间[10，+∞）上是增函数，且\\( \\frac {kx-1}{x-1}\\)＞0在[10，+∞）上恒成立；<br>由（1）知，\\( \\begin{cases}  0＜k＜1 \\\\  \\frac {1}{k}＜10\\end{cases}\\)，<br>解得，\\( \\frac {1}{10}\\)＜k＜1．</div>",
+          "questionContent": "<div>已知函数f（x）=ln\\( \\frac {kx-1}{x-1}\\)（k＞0）．<br>（1）求函数f（x）的定义域；<br>（2）若函数f（x）在区间[10，+∞）上是增函数，求 实数k的取值范围．</div>",
           "questionLabelList": [
             {
               "labelName": "已知函数的单调性求参数",
@@ -149,13 +149,13 @@
             }
           ],
           "questionSelection": "",
-          "questionAnswerInfo": "<div><br>（1）由题意得，<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032817453114074033.png\">\\( \\frac {kx-1}{x-1}\\)</latex-code>＞0，从而分类讨论求定义域；<br>（2）若函数f（x）=ln<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032817453114074033.png\">\\( \\frac {kx-1}{x-1}\\)</latex-code>在区间[10，+∞）上是增函数，则y=<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032817453114074033.png\">\\( \\frac {kx-1}{x-1}\\)</latex-code>在区间[10，+∞）上是增函数，且<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032817453114074033.png\">\\( \\frac {kx-1}{x-1}\\)</latex-code>＞0在[10，+∞）上恒成立；结合（1）可得<latex-code src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20190328/2019032817453208077178.png\">\\( \\begin{cases}  0＜k＜1 \\\\  \\frac {1}{k}＜10\\end{cases}\\)</latex-code>，从而解得．<br>本题考查了复合函数的定义域的求法及分类讨论的思想应用．</div>",
+          "questionAnswerInfo": "<div><br>（1）由题意得，\\( \\frac {kx-1}{x-1}\\)＞0，从而分类讨论求定义域；<br>（2）若函数f（x）=ln\\( \\frac {kx-1}{x-1}\\)在区间[10，+∞）上是增函数，则y=\\( \\frac {kx-1}{x-1}\\)在区间[10，+∞）上是增函数，且\\( \\frac {kx-1}{x-1}\\)＞0在[10，+∞）上恒成立；结合（1）可得\\( \\begin{cases}  0＜k＜1 \\\\  \\frac {1}{k}＜10\\end{cases}\\)，从而解得．<br>本题考查了复合函数的定义域的求法及分类讨论的思想应用．</div>",
           "questionSource": "2019·广东省期末",
           "questionDifficulty": 3
         },
         {
           "questionAnswer": "<div> \\((\\)Ⅰ\\()\\)证明：由底面\\(ABCD\\)为矩形，得\\(BC⊥AB\\)．<br />又平面\\(SAB⊥\\)平面\\(ABCD\\)，平面\\(SAB∩\\)平面\\(ABCD=AB\\)，\\(BC\\)平面\\(ABCD\\)， <br />所以\\(BC⊥\\)平面\\(SAB.\\)所以\\(BC⊥SA\\)．<br />同理可得\\(CD⊥SA\\)．<img alt=\"\" src=\"http://iflytekedu.bj.openstorage.cn/question/2018/5/10/7/21/b9c2dabe-9dc7-463b-8b7c-ac647c27b41e.png\" style=\"vertical-align:middle;FLOAT:right;\" /> <br />又\\(BC∩CD=C\\)，\\(BC\\)平面\\(ABCD\\)，\\(CD\\)平面\\(ABCD\\)， <br />所以\\(SA⊥\\)平面\\(ABCD\\)．<br />\\((\\)Ⅱ\\()\\)解：设\\(SA=6a\\)，则\\(AB=2a\\)，\\(AD=3a\\)．<br />\\(V_{E-BCD}= \\dfrac {1}{3}&times;S_{\\triangle BCD}&times;h\\) <br />\\(= \\dfrac {1}{3}&times;( \\dfrac {1}{2}&times;BC&times;CD)&times;( \\dfrac {1}{2}SA)\\) <br />\\(= \\dfrac {1}{3}&times;( \\dfrac {1}{2}&times;2a&times;3a)&times;(3a)=3a^{3}\\)． <br />又\\(V_{E-BCD}= \\dfrac {8}{9}\\)，所以\\(3a^{3}= \\dfrac {8}{9}.\\)解得\\(a= \\dfrac {2}{3}\\)． <br />四棱锥\\(S-ABCD\\)的外接球是以\\(AB\\)、\\(AD\\)、\\(AS\\)为棱的长方体的外接球，设半径为\\(R\\)．<br />则\\(2R= \\sqrt {AB^{2}+AD^{2}+AS^{2}}=7a= \\dfrac {14}{3}\\)，即\\(R= \\dfrac {7}{3}\\)． <br />所以，四棱锥\\(S-ABCD\\)的外接球的表面积为\\(4πR^{2}= \\dfrac {196π}{9}\\)． </div>",
-          "questionContent": "<div><img alt=\"\" src=\"https://jiaoyanwang.oss-cn-beijing.aliyuncs.com/upload/image/question/20180522/2018052217391232126307.png\" style=\"vertical-align:middle;FLOAT:right;\" w=\"181px\" h=\"176px\" />在四棱锥\\(S-ABCD\\)中，底面\\(ABCD\\)为矩形，平面\\(SAB⊥\\)平面\\(ABCD\\)，平面\\(SAD⊥\\)平面\\(ABCD\\)，且\\(SA=2AD=3AB\\)．<br />\\((\\)Ⅰ\\()\\)证明：\\(SA⊥\\)平面\\(ABCD\\)； <br />\\((\\)Ⅱ\\()\\)若\\(E\\)为\\(SC\\)的中点，三棱锥\\(E-BCD\\)的体积为\\( \\dfrac {8}{9}\\)，求四棱锥\\(S-ABCD\\)外接球的表面积．</div>",
+          "questionContent": "<div><img alt=\"\" src=\"http://chuantu.xyz/t6/706/1576636617x2073530527.png\" style=\"vertical-align:middle;FLOAT:right;\" w=\"181px\" h=\"176px\" />在四棱锥\\(S-ABCD\\)中，底面\\(ABCD\\)为矩形，平面\\(SAB⊥\\)平面\\(ABCD\\)，平面\\(SAD⊥\\)平面\\(ABCD\\)，且\\(SA=2AD=3AB\\)．<br />\\((\\)Ⅰ\\()\\)证明：\\(SA⊥\\)平面\\(ABCD\\)； <br />\\((\\)Ⅱ\\()\\)若\\(E\\)为\\(SC\\)的中点，三棱锥\\(E-BCD\\)的体积为\\( \\dfrac {8}{9}\\)，求四棱锥\\(S-ABCD\\)外接球的表面积．</div>",
           "questionLabelList": [
             {
               "labelName": "球外接空间几何体问题",
