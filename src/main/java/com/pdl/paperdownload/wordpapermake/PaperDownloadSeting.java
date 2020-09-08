@@ -39,7 +39,7 @@ public class PaperDownloadSeting {
             allTemplate.put("docxHeader2Mould", configuration.getTemplate("docxmould/header2.ftl"));
             allTemplate.put("docxStylesMould", configuration.getTemplate("docxmould/styles.ftl"));
         }catch(IOException e){
-            e.printStackTrace();
+            logger.error("加载模板异常！",e);
             throw new RuntimeException(e);
         }
     }
@@ -86,14 +86,14 @@ public class PaperDownloadSeting {
                 zipdocx(paperMap,zipout);
             }
         }catch(Exception e){
-            e.printStackTrace();
+           logger.error("下载异常",e);
             throw new RuntimeException(e);
         }finally {
             try {
                 out.close();
                 deleteTmpImages(paperMap.get("tempMediaPath").toString());
             } catch (Exception e2) {
-                e2.printStackTrace();
+                logger.error("删除临时文件异常",e2);
             }
         }
     }
@@ -176,7 +176,7 @@ public class PaperDownloadSeting {
     /**
      *@Author: maoyuwei
      *@Date: 2019/9/7 15:29
-     *@Desc: 创建word图片临时文件夹
+     *@Desc: 创建word图片临时文件夹并且获取静态文件
      */
     public static File  makeDirs() {
         String filePath=PaperDownloadSeting.class.getClassLoader().getResource("").getPath().replace("classes", "tempfile");

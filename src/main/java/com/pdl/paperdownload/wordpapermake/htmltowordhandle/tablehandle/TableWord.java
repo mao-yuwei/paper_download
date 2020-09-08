@@ -72,7 +72,7 @@ public class TableWord {
 					}
 					if(mergeCount>0) {
 						String tccolspan = "";
-						if(mergeCount > 0) tccolspan = tccolspanbegin + mergeCount + tccolspanend;
+						if(mergeCount > 0) {tccolspan = tccolspanbegin + mergeCount + tccolspanend;}
 						if(tcAtomWidth.equals(tcwidth)){
 							wordTableStr = wordTableStr + tcNoWidth + tccolspan + tcrowspanend;
 						}else {

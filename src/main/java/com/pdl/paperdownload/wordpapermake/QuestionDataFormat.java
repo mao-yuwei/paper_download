@@ -2,20 +2,21 @@ package com.pdl.paperdownload.wordpapermake;
 
 import com.pdl.paperdownload.wordpapermake.htmltowordhandle.NodesToWord;
 import com.pdl.paperdownload.util.JsonUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.*;
-import java.util.logging.Logger;
 
 /**
  * @Author: maoyuwei
  * @Desc:试卷试题数据处理
  **/
 public class QuestionDataFormat {
-    public static Logger logger = Logger.getLogger("QuestionDataFormat");
+    private static Logger logger= LoggerFactory.getLogger(QuestionDataFormat.class.getName());
     private static String IMAGE_PATH= QuestionDataFormat.class.getClassLoader().getResource("").getPath().replace("classes", "tempfile");
     private static Map<Integer,String> questionTypeCategoryMap;
     static {
-        questionTypeCategoryMap=new HashMap<Integer, String>();
+        questionTypeCategoryMap=new HashMap<>();
         questionTypeCategoryMap.put(111,"第I卷 （选择题）");
         questionTypeCategoryMap.put(112,"第Ⅱ卷 （非选择题）");
     }
@@ -92,7 +93,7 @@ public class QuestionDataFormat {
             paperMap.put("tempMediaPath",tempMediaPath);
             return paperMap;
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error("下载试题异常",e);
             return paperMap;
         }
     }

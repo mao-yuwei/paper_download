@@ -50,9 +50,9 @@ public class NodesToWord {
 
             if(nodeName!=null&&nodeName.equals("img")){
                 Map<String,String> nodeAttrMap=node.getAttrMap();
-                if(nodeAttrMap==null) continue;
+                if(nodeAttrMap==null) {continue;}
                 String src=nodeAttrMap.get("src");
-                if(src==null) continue;
+                if(src==null) {continue;}
                 setImgHeightAndWidth(node.getNodeStr(),src);
                 if(node.getNodeStr().indexOf(":right")>0||node.getNodeStr().indexOf(": right")>0){
                     floatImageStr=floatImageStr+WordStyle.WP_END+WordStyle.WP+WordStyle.WRT_BEGIN+src+WordStyle.WRT_END;
@@ -144,9 +144,9 @@ public class NodesToWord {
         String heightRegex="(?<=height\\=\")[0-9]+(?=(\"|px))";
         String heightSubRegex="(?<=h\\=\")[0-9]+(?=(\"|px))";
         Integer width=getRegexMatchInteger(nodeStr,widthRegex);
-        if(width==null) width=getRegexMatchInteger(nodeStr,widthSubRegex);
+        if(width==null) {width=getRegexMatchInteger(nodeStr,widthSubRegex);}
         Integer height=getRegexMatchInteger(nodeStr,heightRegex);
-        if(height==null) height=getRegexMatchInteger(nodeStr,heightSubRegex);
+        if(height==null) {height=getRegexMatchInteger(nodeStr,heightSubRegex);}
         if(width!=null) {imageInfo.put(path+"_width",width);}
         if(height!=null) {imageInfo.put(path+"_height",height);}
     }

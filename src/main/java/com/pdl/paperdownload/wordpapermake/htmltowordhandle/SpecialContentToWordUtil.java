@@ -232,6 +232,7 @@ public class SpecialContentToWordUtil {
                 continue;
             }
             try {
+                logger.info("---------------->>"+latexStr);
                 String ommlStr = Latex_Word.latexToWordAlreadyClean(latexStr);
                 if (!ommlStr.equals("ERROR")) {
                     htmlStr = htmlStr.replace(oldStr, WordStyle.wrtend + ommlStr + WordStyle.ommlwrtbegin + WordStyle.wrtend + WordStyle.wrtbegin);

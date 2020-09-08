@@ -166,6 +166,18 @@
           "questionAnswerInfo": "<div> <br />\\((\\)Ⅰ\\()\\)证明\\(BC⊥AB.BC⊥SA.CD⊥SA\\)，即可证明\\(SA⊥\\)平面\\(ABCD\\)．<br />\\((\\)Ⅱ\\()\\)设\\(SA=6a\\)，则\\(AB=2a\\)，\\(AD=3a.\\)通过几何体的体积求解\\(a\\)，设半径为\\(R.\\)然后求解\\(R\\)，然后求解球的表面积．<br />本题考查几何体的体积的求法，直线与平面垂直的判定定理的应用，考查空间想象能力以及计算能力．</div>",
           "questionSource": "2018·枣庄市高考模拟",
           "questionDifficulty": 3
+        },
+        {
+          "questionAnswer": "解：设$\\left \\{ a_n \\right \\}$的公差为d，由已知有$7+21d=28$,解得$d=1$\n∴$a_n=n$\n∴$b_1=[lg1]=0$,$b_1=[lg11]=1$,$b_1=[lg101]=2$\n",
+          "questionAnswerInfo": "<p>解：设$\\left \\{ a_n \\right \\}$的公差为d，由已知有$7+21d=28$,解得$d=1$</p><p>∴$a_n=n$</p><p>∴$b_1=[lg1]=0$,$b_1=[lg11]=1$,$b_1=[lg101]=2$</p>",
+          "questionSelection": "",
+          "questionContent": "<p>(1)求$b_1 ,b_{11} ,b_{101} $；</p>"
+        },
+        {
+          "questionAnswer": "解：∵$b_n=\\left\\{\\begin{matrix} 0,1\\leq n&lt;10\\\\1,10\\leq n&lt;100 \\\\2,100\\leq n&lt;1000 \\\\ 3,n=1000 \\end{matrix}\\right.$\n所以数列的前n项和为$1\\times 90+2\\times900+3\\times 1=1893$\n",
+          "questionAnswerInfo": "<p>解：∵$b_n=\\left\\{\\begin{matrix} 0,1\\leq n&lt;10\\\\1,10\\leq n&lt;100 \\\\2,100\\leq n&lt;1000 \\\\ 3,n=1000 \\end{matrix}\\right.$</p><p>所以数列的前n项和为$1\\times 90+2\\times900+3\\times 1=1893$</p>",
+          "questionSelection": "",
+          "questionContent": "<p>(2)求数列$\\left\\{ {{\\rm{b}}_n } \\right\\}$的前1000项和</p>"
         }
       ]
     }
